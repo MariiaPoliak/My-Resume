@@ -12,172 +12,190 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/Styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+
+
   </head>
-
   <body>
-    <!-- Wrapper -->
-    <div class="wrapper">
-      <!-- Main content -->
-      <div class="main-content">
-        <!-- My info -->
-        <div class="my-info">
-          <h2 class="my-profession">Logistic Specialist</h2>
-
-          <h1 class="my-name">Mariia Poliak</h1>
-
-          <p class="my-description">
-            Dedicated Logistics Specialist with professional project management
-            certification. Committed to improving transportation and delivery
-            processes.
-          </p>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img src="img/my-photo.png" alt="My photo" class="sidebar-photo" />
+        <div class="sidebar-info">
+          <p class="sidebar-role">Junior Frontend Developer</p>
         </div>
+        <div class="sidebar-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+48532143558"><i class="fas fa-phone-alt"></i> +48 532 143 558</a></li>
+            <li>
+              <a href="mailto:mariiapoliak1997@gmail.com"
+                ><i class="fas fa-envelope"></i> mariiapoliak1997@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-skills">
+          <h3>Tech Skills</h3>
+          <ul>
+            <li>HTML5/CSS3</li>
+            <li>Responsive Design</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React (Hooks, Components)</li>
+            <li>Git & Version Control</li>
+            <li>REST API Integration</li>
+          </ul>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Leadership</li>
+            <li>Analytical Skills</li>
+            <li>Organisation</li>
+            <li>Teamwork</li>
+          </ul>
+          <h3>Languages</h3>
+          <ul>
+            <li>English: Intermediate</li>
+            <li>Polish: Intermediate</li>
+            <li>German: Beginner</li>
+            <li>Ukrainian: Native</li>
+          </ul>
+        </div>
+      </aside>
+      
+      
 
-        <!-- Work Experience -->
-        <div class="experience-container">
+      <!-- Main Content -->
+      <main class="main-content">
+        <section class="about">
+          <h1 class="name">Mariia Poliak</h1>
+          <p class="bio">
+            Junior Front-End Developer with a strong foundation in HTML5, CSS3,
+            JavaScript, and React. Passionate about creating responsive,
+            user-friendly websites and always eager to learn and grow. Skilled
+            in problem-solving and delivering high-quality code to enhance user experiences. Ambitious, highly responsible, punctual, and goal- oriented person, always ready to learn and gain new experiences.
+          </p>
+        </section>
+
+        <section class="experience">
+          <h2>Project Experience</h2>
+          <div class="project">
+            <a class="project-title"
+              href="https://annafleck.github.io/our-first-project/"
+              target="_blank"
+              >Watcharm</a
+            >
+            <p class="project-details">HTML, CSS, JavaScript</p>
+            <p class="project-description">
+              Developed the e-commerce platform's catalog, ensuring smooth
+              browsing and filtering of watch models.
+            </p>
+            <a class="project-link"
+              href="https://github.com/AnnaFleck/our-first-project"
+              target="_blank"
+              ><i class="fas fa-link"></i> Project Link</a
+            >
+          </div>
+          <div class="project">
+            <a class="project-title"
+              href="https://pavlobilenko.github.io/js-avatar-team/"
+              target="_blank"
+              >LloydJefferson</a
+            >
+            <p class="project-details">HTML, CSS, JavaScript, React</p>
+            <p class="project-description">
+              The site is a sleek, modern platform showcasing the skills and projects of a Junior Front-End Developer. It emphasizes responsive design and user-friendly navigation, reflecting proficiency in HTML, CSS, JavaScript, and React. My contribution focused on developing the FAQ section, ensuring a clear and interactive layout to enhance user understanding. This hands-on experience highlights my ability to combine technical skills with practical applications to create functional and visually appealing components.
+            </p>
+            <a class="project-link"
+              href="https://github.com/PavloBilenko/js-avatar-team"
+              target="_blank"
+              ><i class="fas fa-link"></i> Project Link</a
+            >
+          </div>
+          <div class="project">
+            <a class="project-title"
+              href="https://goit-react-hw-05-six-iota.vercel.app/"
+              target="_blank"
+              >Movie Gallery</a
+            >
+            <p class="project-details">HTML, CSS, JavaScript, React</p>
+            <p class="project-description">
+              The Trendy Movies Gallery is a modern web app showcasing the latest and most popular movies. It features a responsive design, dynamic data integration via a movie API, and interactive elements like hover effects, a search bar, and a detailed movie info page. 
+            </p>
+            <a class="project-link"
+              href="https://github.com/MariiaPoliak/goit-react-hw-05"
+              target="_blank"
+              ><i class="fas fa-link"></i> Project Link</a
+            >
+          </div>
+          <div class="project">
+            <a class="project-title"
+              href="https://mariiapoliak.github.io/goit-markup-hw-06/"
+              target="_blank"
+              >WebStudio</a
+            >
+            <p class="project-details">HTML, CSS</p>
+            <p class="project-description">
+              The WebStudio Site is a sleek multi-page website designed for a creative agency. It features sections for team introductions, contact details, and an interactive portfolio showcasing the agency's work. With responsive design and user-friendly navigation, it offers a professional platform to connect with clients and display the agency's expertise.
+            </p>
+            <a class="project-link"
+              href="https://github.com/MariiaPoliak/goit-markup-hw-06"
+              target="_blank"
+              ><i class="fas fa-link"></i> Project Link</a
+            >
+          </div>
+           <!-- Work Experience -->
+        <div >
           <h3 class="work-experience-title">Work Experience</h3>
           <!-- Company 1 -->
-          <div class="work-experience-container">
+          <div class="project">
             <h4 class="work-experience-company">
               Logistics Specialist
               <span class="company-name">LG Energy Solution Sp.z o.o.</span>
             </h4>
-            <p class="work-experience-period">
-              January 2024 - up to now
+            <p class="project-details">
+              February 2023 - July 2024
               <span class="work-experience-period-separator">|</span> Country
             </p>
             <ul class="duties-list">
-              <li class="work-experience-duties-item">
+              <li class="project-description">
                 Control and implementation of the E-Kanban system.
               </li>
-              <li class="work-experience-duties-item">
+              <li class="project-description">
                 Supervision and operation of the WMS system [iWMS, Input/output
                 transfers between warehouses, iWMS vs SAP discrepancy control,
                 deleting/adding stocks, blocking/unblocking stocks, FIFO/FEFO
                 supervision.
               </li>
-              <li class="work-experience-duties-item">
+              <li class="project-description">
                 Process optimization/creation.
               </li>
-              <li class="work-experience-duties-item">
+              <li class="project-description">
                 Creating/participating in projects related to cost optimization
                 in the company.
               </li>
             </ul>
           </div>
-          <!-- Company 2 -->
-          <div class="work-experience-container">
-            <h4 class="work-experience-company">
-              Section Leader
-              <span class="company-name">LX Pantos Sp.z o.o.</span>
-            </h4>
-            <p class="work-experience-period">
-              December 2021 - January 2024
-              <span class="work-experience-period-separator">|</span> Country
-            </p>
-            <ul class="duties-list">
-              <li class="work-experience-duties-item">
-                Organizing the work of the warehouse team.
-              </li>
-              <li class="work-experience-duties-item">
-                Creating or updating work instructions or checklists.
-              </li>
-              <li class="work-experience-duties-item">
-                Daily control of system transfers (receipt at the warehouse,
-                transfers between warehouses).
-              </li>
-              <li class="work-experience-duties-item">
-                Troubleshoot or support basic issues related to ECM, iWMS,
-                printers, computers etc.
-              </li>
-            </ul>
-          </div>
-          <!-- Company 3 -->
-          <div class="work-experience-container">
-            <h4 class="work-experience-company">
-              Warehouse Administrator
-              <span class="company-name">LX Pantos Sp.z o.o.</span>
-            </h4>
-            <p class="work-experience-period">
-              September 2020 - December 2021
-              <span class="work-experience-period-separator">|</span> Country
-            </p>
-            <ul class="duties-list">
-              <li class="work-experience-duties-item">
-                Creating reports and presentations.
-              </li>
-              <li class="work-experience-duties-item">
-                Organization of work in the warehouse.
-              </li>
-              <li class="work-experience-duties-item">
-                Cooperation with the management board and other departments of
-                the company.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Education -->
-        <div class="education-container">
-          <h3 class="education-title">Education</h3>
-          <!-- University -->
-          <h4 class="education-institution">
-            Precarpathian national university named by Vasyl Stefanyk
-          </h4>
-          <h5 class="education-direction">English Philology</h5>
-          <p class="education-period">
-            September 2014 - December 2020
-            <span class="education-period-separator">|</span> Ukraine
-          </p>
-        </div>
-      </div>
-      <!-- Sidebar -->
-      <aside class="sidebar">
-        <img src="img/my photo.jpg" alt="My photo" width="370" />
 
-        <div class="sidebar-content">
-          <!-- Contacts -->
-          <div class="contacts-container">
-            <h3 class="contacts-title">Contacts</h3>
-            <p class="contacts-item">
-              <span class="contacts-type">C:</span>
-              <a class="contacts-link" href="tel:+48532143558"
-                >+48 532 143 558</a
-              >
-            </p>
-            <p class="contacts-item">
-              <span class="contacts-type">E:</span>
-              <a class="contacts-link" href="mailto:mariiapoliak1997@gmail.com"
-                >mariiapoliak1997@gmail.com</a
-              >
-            </p>
+        <section class="education">
+          <h2>Education</h2>
+          <div class="school">
+            <h3 class="project-title">IT School GoIT</h3>
+            <p class="degree">Fullstack Developer</p>
+            <p class="period">2024 - 2025</p>
+            </div>
+            <div class="school">
+            <h3 class="project-title">Precarpathian National University</h3>
+            <p class="degree">Philology</p>
+            <p class="period">2014 - 2020</p>
+            
+           
           </div>
-          <!-- Tech Skills -->
-          <div class="skills-container">
-            <h3 class="skill-title">Tech Skills</h3>
-            <ul class="skills-list">
-              <li class="skills-list-item">SAP</li>
-              <li class="skills-list-item">Excel</li>
-              <li class="skills-list-item">Project Management</li>
-              <li class="skills-list-item">ERP Systems</li>
-              <li class="skills-list-item">
-                Warehouse Management Systems (WMS)
-              </li>
-              <li class="skills-list-item">Supply Chain Management</li>
-              <li class="skills-list-item">Data Analysis</li>
-            </ul>
-          </div>
-          <!-- Soft Skills -->
-          <div class="soft-skills-container">
-            <h3 class="soft-skills-title">Soft Skills</h3>
-
-            <ul class="soft-skills-list">
-              <li class="soft-skills-list-item">Leadership</li>
-              <li class="soft-skills-list-item">Analytical skills</li>
-              <li class="soft-skills-list-item">Organisation</li>
-              <li>Teamwork</li>
-            </ul>
-          </div>
-        </div>
-      </aside>
+        </section>
+      </main>
     </div>
   </body>
 </html>
