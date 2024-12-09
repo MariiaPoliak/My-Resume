@@ -9,29 +9,28 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
   color: #878686;
-  line-height: 1.6;
-  margin: 30px;
+  line-height: 1.4;
+  margin: 20px;
 }
 
 .container {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   max-width: 210mm; /* A4 size */
-  height: auto;
   margin: 0 auto;
-  padding: 10mm;
+  padding: 5mm;
   background-color: #f4f4f4;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Sidebar */
 .sidebar {
-  width: 265px;
+  width: 220px;
   background-color: #e8e7e7;
-  padding: 20px;
-  margin-right: 15px;
+  padding: 10px;
+  margin-right: 10px;
   flex-shrink: 0;
 }
 
@@ -39,30 +38,30 @@ body {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .sidebar-info {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .sidebar-name {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .sidebar-role {
-  font-size: 20px;
+  font-size: 16px;
   color: #656d75;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .sidebar-contact h3,
 .sidebar-skills h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 25px;
   color: #656d75;
 }
 
@@ -70,12 +69,13 @@ body {
 .sidebar-skills ul {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 15px;
 }
 
 .sidebar-contact li,
 .sidebar-skills li {
-  font-size: 14px;
-  margin-bottom: 8px;
+  font-size: 12px;
+  margin-bottom: 18px;
 }
 
 .sidebar-contact a,
@@ -92,10 +92,10 @@ body {
 /* Main Content */
 .main-content {
   flex-grow: 1;
-  padding: 20px;
+  padding: 10px;
   background-color: #e8e7e7;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -104,51 +104,41 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #656d75;
-  border-bottom: 2px solid #575757;
+  border-bottom: 1px solid #575757;
 }
 
 h1 {
-  font-size: 32px;
-  border-bottom: 2px solid #575757;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 18px;
-  margin-top: 30px;
+  font-size: 24px;
+  padding-bottom: 8px;
   margin-bottom: 15px;
 }
 
-h2::before {
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background-color: #575757;
+h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 18px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 8px;
   color: #656d75;
 }
 
 p {
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 12px;
+  margin-bottom: 8px;
   color: #555;
 }
 
 .project,
 .school {
-  padding: 15px;
-  margin-bottom: 20px;
-  border-left: 4px solid #afb0b1;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 3px solid #afb0b1;
   background-color: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 5px;
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
@@ -173,49 +163,29 @@ p {
 .school .degree,
 .school .period {
   color: #333;
-  font-size: 0.95rem;
-  margin-bottom: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
 }
+
 .project-details {
-  font-size: 15px;
+  font-size: 12px;
   font-style: italic;
   color: #c7c6c6;
 }
 
 .school .period {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #d4d1d1;
 }
 
 /* Sidebar Skills */
-.sidebar-skills {
-  margin-bottom: 20px;
-}
-
-.sidebar-skills h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #656d75;
-  padding-bottom: 5px;
-}
-
-.sidebar-skills ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 .sidebar-skills ul li {
-  font-size: 14px;
-  color: #656d75;
-  margin-bottom: 8px;
+  font-size: 12px;
+  margin-bottom: 17px;
+  padding: 4px 8px;
+  border-radius: 5px;
   background-color: #f8f9fa;
-  padding: 5px 10px;
-  border-radius: 8px;
-  display: inline-block;
-  width: auto;
   transition: transform 0.2s ease, background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar-skills ul li:hover {
@@ -228,62 +198,51 @@ p {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    padding: 10mm;
+    padding: 5mm;
   }
 
   .sidebar {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .main-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
   .sidebar {
-    width: 100%;
     text-align: center;
   }
 
   .sidebar-photo {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
   }
 
   .sidebar-name {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .sidebar-role {
-    font-size: 14px;
+    font-size: 12px;
   }
+}
 
-  .main-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-.project-title {
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-}
-.project-link:hover {
-  text-decoration: underline;
+ul {
+  list-style: none;
 }
