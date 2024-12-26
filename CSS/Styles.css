@@ -35,8 +35,8 @@ body {
 }
 
 .sidebar-photo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 20px;
@@ -104,8 +104,9 @@ body {
 /* Main Content */
 .main-content {
   flex: 3;
-  padding: 8px;
-  background: #ffffff;
+  padding: 28px;
+  background: #ffffff; /* White background */
+  box-shadow: none; /* Remove box shadow */
 }
 
 .name {
@@ -133,8 +134,8 @@ h2 {
 .school {
   margin-bottom: 8px;
   padding: 15px;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
+  background: #ffffff;
+
   border-radius: 5px;
 }
 
